@@ -24,6 +24,10 @@ Date: 2026-10-09
 
 \- Changed the default Linux password for wazuh-user.
 
+\- Changed the default dashboard administrator password using the official Wazuh tool.
+
+\- Restarted Filebeat and the dashboard, then verified login with the new password.
+
 
 
 \## Network
@@ -53,8 +57,6 @@ The displayed alert counts do not, by themselves, prove an attack.
 \## Remaining Tasks
 
 
-
-\- Change the default dashboard administrator password.
 
 \- Configure a stable lab address.
 
