@@ -34,13 +34,13 @@ Date: 2026-10-09
 
 
 
-The observed Host-only address is 192.168.56.101/24.
+The Host-only interface eth0 uses the static IP address 192.168.56.10/24.
 
-This address is currently assigned dynamically and may change.
+The address was verified to persist after a VM reboot.
 
 
 
-Dashboard: https://192.168.56.101
+Dashboard: https://192.168.56.10
 
 
 
@@ -57,8 +57,6 @@ The displayed alert counts do not, by themselves, prove an attack.
 \## Remaining Tasks
 
 
-
-\- Configure a stable lab address.
 
 \- Connect the Debian endpoint and validate event collection.
 
